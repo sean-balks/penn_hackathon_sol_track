@@ -4,16 +4,14 @@
     "version": "1.0.1",
   
     "action": {
-        "default_icon": {              
-          "16": "extension/icons/16.png",
-          "48": "extension/icons/48.png",
-          "128": "extension/icons/128.png"
-        },
-    "description": "Fck Gas Fees",
-    "icons": {
-        "16": "extension/icons/16.png",
-        "48": "extension/icons/48.png",
-        "128": "extension/icons/128.png"
-        }
+        "default_icon": "extension/icons/128.png",
+        "default_title": "page action demo",
+        "description": "Fck Gas Fees",
+        "icons": {
+            "16": "extension/icons/16.png",
+            "48": "extension/icons/48.png",
+            "128": "extension/icons/128.png"
+            },
+            "default_popup": "extension/src/page_action/page_action.html"
     }
 }
