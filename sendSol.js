@@ -41,9 +41,9 @@ const web3 =  require("@solana/web3.js");
 
     /*
     Transaction 
+    */
     console.log('FROM_PK', from.publicKey);
     console.log('TO_PK', to.publicKey);
     console.log('SIGNATURE', signature);
-    */
 
 })();
